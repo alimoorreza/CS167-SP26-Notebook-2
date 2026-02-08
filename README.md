@@ -1,4 +1,4 @@
-# CS167-SP25-Notebook-2
+# CS167-SP26-Notebook-2
 # Notebook #2: K Nearest Neighbors and Normalization
 
 ## The Data
