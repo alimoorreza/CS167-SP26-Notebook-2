@@ -25,7 +25,7 @@ Notebook #2 consists of the following exercises :muscle:.
     - If you have a null predictor value, you can either fill them in with something (like the mean/median) or you can drop those rows from the data set.
     - Useful functions here are `isna()`, `any()`, `fillna()`, `value_counts()` and `dropna()`. 
     - Describe in a markup cell what you decided to do with the null data and why.
-3. Write up a k-nearest-neighbors function like the one you made for the iris data set in class. 
+3. Use the k-nearest neighbors method from the scikit-learn library. We have tried this in class, and [here is the link](https://github.com/alimoorreza/CS167-sp26-notes/blob/main/Day07_Introduction_to_Scikit_Learn_and_kNN.ipynb). **Do not use** the k-nearest neighbors function we wrote for the iris dataset in class. **You will be penalized if you do so.**
     - It should be able to make mpg ("comb08") predictions for new cars based on the year, cylinders, and displacement. 
     - You should also be able to specify what you want to use as k.
 4. Demonstrate that your function works by making up some new values for hypothetical cars and using your function to display the predicted mpg ("comb08") for that car.
