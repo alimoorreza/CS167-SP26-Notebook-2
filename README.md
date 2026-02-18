@@ -35,7 +35,7 @@ Notebook #2 consists of the following exercises :muscle:.
     - It should be able to make mpg ("comb08") predictions for new cars based on the year, cylinders, and displacement. 
     - You should also be able to specify what you want to use as k.
 4. Demonstrate that your function works by making up some new values for hypothetical cars and using your function to display the predicted mpg ("comb08") for that car.
-5. Make a copy of the data and normalize the training data using Z-score-- `copy()` will be useful here. 
+5. You should normalize your training data and redo the experiments. You could use the [normalization code from here](https://github.com/alimoorreza/CS167-sp26-notes/blob/main/Day08_Normalization.ipynb). Make a copy of the original data (the Pandas `copy()` function will be useful), and then normalize the training data using **z-score** normalization.
     - Predict the mpg of a particular car using your k-nearest-neighbors function with both the normalized and non-normalized training data. 
     - Compare your results. 
     - Use a markup cell to describe and explain the differences in a few sentences.
