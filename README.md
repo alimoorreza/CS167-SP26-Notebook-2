@@ -1,6 +1,12 @@
 # CS167-SP26-Notebook-2
 # Notebook #2: K Nearest Neighbors and Normalization
-
+## Useful Pandas for Missing Data Functions
+- `isna()`: returns True for any missing data
+- `notna()`: returns True for any data that is __not__ `NaN`
+- `any()`: returns true if any of the elements in a Series is True
+- `value_counts()`: returns a list of the values in a Series, use `dropna=False` to see `NaN` values
+- `dropna()`: drops rows or columns (specify which axis, 1 or 0) that have missing data. Don't forget to either save the result of the call or add `inplace=True` as a parameter.
+- `fillna()`: replaces missing data with a given value (generally 0 or the mean)
 ## The Data
 For this notebook, you will load a new data set dealing with cars :articulated_lorry: :blue_car: :red_car: :taxi: :bus: and fuel efficiency :fuelpump: (vehicles.csv - included in the repository) using Pandas and perform some subsetting operations.
 
